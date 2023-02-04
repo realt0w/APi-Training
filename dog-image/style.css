@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(red, orange, yellow, green, white);
+}
+
+.call{
+    font-size: 30px;
+}
+
+.container{
+    display: flex;  
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    width: fit-content;
+    border-radius: 5px;
+    border: solid;
+    margin: auto;
+    height: 500px;
+    width: fit-content;
+}
+
+.title{
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    color: azure;
+}
+
+.bottom{
+    display: inline;
+}
+
+.home{
+    color: beige;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
