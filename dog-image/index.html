@@ -2,6 +2,19 @@
   <head>
     <script src="dog-request.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+    <title>Dog Image - Random Dogs Images</title>
+    <meta name="description" content="Get random Dogs Images! This website is using Dogs APi.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://api-tom.netlify.app/cats-facts/">
+        <meta property="og:title" content="Dog Image - Random Dogs Images">
+        <meta property="og:description" content="Get random Dogs Images! This website is using Dogs APi.">
+        <meta property="og:image" content="img/favicon.ico/">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://api-tom.netlify.app/cats-facts/">
+        <meta property="twitter:title" content="Dog Image - Random Dogs Images">
+        <meta property="twitter:description" content="Get random Dogs Images! This website is using Dogs APi.">
+        <meta property="twitter:image" content="img/favicon.ico">
+        <link rel="icon" type="image/ico" href="images/favicon.ico">
   </head>
   <body onload="makeApiRequest()">
     <div class="title">
@@ -9,7 +22,8 @@
     </div>
     <img class="image" id="output">
     </div>
-    <div class="container"><button class="call" onclick="makeApiRequest()">See a dog!!</button></div>
+    <p class="container" id="statutoutpy"></p>
+    <div class="container2"><button class="call" onclick="makeApiRequest()">See a dog!!</button></div>
     <div class="bottom">
       <a class="home" href="../index.html">Back home</a>
       <a class="home" href="https://dog.ceo/api/breeds/image/random">Dogs</a>

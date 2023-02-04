@@ -10,9 +10,11 @@ function makeApiRequest() {
           // Extract the value from the API response
           return response.json().then(function(data) {
             var value = data.message;
+            var value2 = data.status;
 
             // Display the value
             document.getElementById("output").src = value;
+            document.getElementById("statutoutpy").innerHTML = "Status: " + value2;
           });
         } else {
           

@@ -8,6 +8,11 @@ body{
 
 .container{
     display: flex;  
+    justify-content: center;
+}
+
+.container2{
+    display: flex;  
     padding-top: 50px;
     justify-content: center;
 }
