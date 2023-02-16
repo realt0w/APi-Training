@@ -11,7 +11,8 @@ function makeApiRequest() {
   fetch(url, {
       headers: {
           'Authorization': 'Bearer ' + token
-      }
+      },
+      mode: 'cors' // add this line
   })
     .then(function(response) {
       // Check if the API request was successful
