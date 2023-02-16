@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script src="coc-request.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+    <title>Cats Facts - Random Cats Facts</title>
+    <meta name="description" content="Get random Cats Facts! This website is using Cat Facts APi.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://api-tom.netlify.app/cats-facts/">
+        <meta property="og:title" content="Cats Facts - Random Cats Facts">
+        <meta property="og:description" content="Get random Cats Facts! This website is using Cat Facts APi.">
+        <meta property="og:image" content="img/favicon.ico/">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://api-tom.netlify.app/cats-facts/">
+        <meta property="twitter:title" content="Cats Facts - Random Cats Facts">
+        <meta property="twitter:description" content="Get random Cats Facts! This website is using Cat Facts APi.">
+        <meta property="twitter:image" content="img/favicon.ico">
+        <link rel="icon" type="image/ico" href="images/favicon.ico">
+  </head>
+  <body onload="makeApiRequest()">
+    <div class="title">
+        <h1>My Cats Facts</h1>
+    </div>
+    <div>
+        <p class="classoutput" id="output"></p>
+    </div>
+    <div class="container"><button class="call" onclick="makeApiRequest()">Get Fact</button></div>
+    <div class="bottom">
+      <a class="home" href="../index.html">Back home</a>
+      <a class="home" href="https://catfact.ninja/fact">Cat Facts</a>
+    </div>
+  </body>
+</html>
