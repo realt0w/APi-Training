@@ -11,8 +11,7 @@ function makeApiRequest() {
   fetch(url, {
       headers: {
           'Authorization': 'Bearer ' + token
-      },
-      mode: 'cors' // add this line
+      }
   })
     .then(function(response) {
       // Check if the API request was successful
@@ -34,3 +33,9 @@ function makeApiRequest() {
       document.getElementById("output").innerHTML = "Error: " + error;
     });
 }
+
+// Add this to the server-side code
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
