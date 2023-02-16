@@ -1,5 +1,5 @@
 function makeApiRequest() {
-  var playerTag = document.getElementById("player-tag").textContent;
+  var playerTag = "JU9YP8U2";
 
   // API endpoint
   var url = 'https://api.clashofclans.com/v1/players/' + playerTag;
